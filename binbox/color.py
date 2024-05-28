@@ -11,7 +11,7 @@ BOLD = '\033[1m'        #粗体
 UNDERLINE = '\033[4m'   #下划线
 
 if __name__ == "__main__":
-    #终端中打印带有颜色和样式的文本
+    #终端中打印带有颜色和样式的文本 ，ENDC末尾重置颜色
     print(HEADER + "TEST:HEADER" + ENDC)
     print(OKBLUE + "TEST:OKBLUE" + ENDC)
     print(OKCYAN + "TEST:OKCYAN" + ENDC)
