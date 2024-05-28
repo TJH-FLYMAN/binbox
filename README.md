@@ -5,6 +5,6 @@ python命令执行小工具
 ```bash
 tar -zxvf binbox.tar.gz
 cd binbox
-pip install -r requirements.txt
+pip install -r requirement.txt
 python setup.py develop
 ```
